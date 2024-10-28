@@ -1,0 +1,29 @@
+{
+    "name": "mohamadghmohamad37/packagemultilang",
+    "description": "Multi-Language Package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MohamadGhMohamad37",
+            "email": "107316607+MohamadGhMohamad37@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PackageMultiLang\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PackageMultiLang\\MultiLangServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
